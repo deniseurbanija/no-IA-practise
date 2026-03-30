@@ -1,0 +1,15 @@
+{
+  "name": "ramp-interview-practice",
+  "version": "1.0.0",
+  "description": "TypeScript practice exercises for Ramp backend interviews",
+  "scripts": {
+    "test": "ts-node ramp-practice-exercises.ts",
+    "watch": "ts-node-dev --respawn ramp-practice-exercises.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.0"
+  }
+}
